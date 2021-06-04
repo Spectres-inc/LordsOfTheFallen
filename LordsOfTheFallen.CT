@@ -907,6 +907,7 @@ label(exit)
 
 newmem: //this is allocated memory, you have read,write,execute access
 //place your code here
+//Made By Spectres
 test rax,rax
 jz originalcode
 mov [pPlayer],rbx
